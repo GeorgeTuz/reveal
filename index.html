@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section style="font-size: 70px;">Classes in JavaScript</section>
+				<section>
+					Constructor Functions<br>
+					<img src="i1.PNG" alt="code">
+					<img src="i2.PNG" alt="code">
+				</section>
+				<section>
+					<img src="i3.PNG" alt="code">
+					<img src="i4.PNG" alt="code">
+				</section>
+				<section>
+					Prototype<br>
+					<img src="i5.PNG" alt="code">
+				</section>
+				<section>
+					<img src="i6.PNG" alt="code">
+					<img src="i7.PNG" alt="code">
+				</section>
+				<section>
+					<img src="i8.PNG" alt="code">
+				</section>
+				<section>
+					<img src="i9.PNG" alt="code">
+				</section>
+				<section>
+					Classes<br>
+					<img src="i10.PNG" alt="code">
+					<img src="i11.PNG" alt="code">
+				</section>
+				<section>
+					<img src="i12.PNG" alt="code">
+				</section>
+				<section style="text-align: left;">
+					1. Constructor requires new keyword to work.<br>
+					2. Class methods are non-enumerable.<br>
+					3. If you don’t add a constructor to a class, a default empty constructor will be added automatically.<br>
+					4. Code inside a class is always in strict mode.<br>
+					5. Class declarations are not hoisted.<br>
+					6. Classes doesn’t allow the property value assignments.
+				</section>
+				<section style="font-size: 70px;">
+					Class Features<br>
+				</section>
+				<section>
+					Constructor<br>
+					<img src="i20.PNG" alt="code">
+				</section>
+				<section>
+					Static Methods<br>
+					<img src="i21.PNG" alt="code">
+				</section>
+				<section>
+					Getters/Setters<br>
+					<img src="i22.PNG" alt="code">
+				</section>
+				<section>
+					Subclassing<br>
+					<img src="i23.PNG" alt="code">
+					<img src="i24.PNG" alt="code">
+				</section>
+				<section>
+					<img src="i25.PNG" alt="code">
+				</section>
+				<section>
+					Resources / References<br>
+					[1]: Javascript Classes — Under The Hood https://medium.com/tech-<br>
+					tajawal/javascript-classes-under-the-hood-6b26d2667677<br>
+					[2]: JavaScript Class https://developer.mozilla.org/en-<br>
+					US/docs/Web/JavaScript/Reference/Classes<br>
+					[3]: https://javascript.info/class<br>
+					[4]: https://thejsguy.com/tutorials/javascript-constructor-functions-and-classes<br>
+					[5]: https://www.phpied.com/3-ways-to-define-a-javascript-class/
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
